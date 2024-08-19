@@ -88,6 +88,7 @@ type FullAlbum struct {
 	// from the popularity of the album's individual tracks.
 	Popularity  Numeric           `json:"popularity"`
 	Tracks      SimpleTrackPage   `json:"tracks"`
+	Label       string            `json:"label"`
 	ExternalIDs map[string]string `json:"external_ids"`
 }
 
